@@ -39,7 +39,7 @@ When I attempted to verify the collection, I encountered an issue: the transacti
 
 - **Challenge**: The collection verification transaction exceeded the size limit imposed by the Solana network.
 - **Solution**: Introduced a **Lookup Table** to reduce the transaction size by mapping and reusing frequently accessed addresses.
-- **Outcome**: Created the `createLookupTable` function in the [Lookup Table service](https://github.com/0xjesus/s6-solana-pay-api/blob/main/services/lookup-table.service.js), which optimized the transaction size.
+- **Outcome**: Created the `createLookupTable` function in the [Lookup Table service](https://github.com/0xjesus/s6-solana-pay-api/blob/main/services/cnfts.service.js#L41), which optimized the transaction size.
 
 ### Verifying the Collection
 
