@@ -19,7 +19,8 @@ As part of the S8 from Solana's fellowship program, I developed a custom backend
 
 ### Creating the Collection
 
-I began by setting up a new NFT collection using the Metaplex protocol. Crafting the `createCollection` function was straightforward initially, but integrating it seamlessly with my custom backend required a deeper dive into Metaplex's API.
+
+ I utilized the backend and frontend infrastructure that I had previously developed for Exercise 6 of Solana Pay to add the functions to complete this exercise. I began by setting up a new NFT collection using the Metaplex protocol. Crafting the `createCollection` function was straightforward initially, but integrating it seamlessly with my custom backend required a deeper dive into Metaplex's API.
 
 - **Challenge**: Understanding the nuances of Metaplex's collection creation process.
 - **Solution**: Studied Metaplex documentation and examined open-source projects for best practices.
